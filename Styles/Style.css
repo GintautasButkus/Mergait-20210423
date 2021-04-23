@@ -10,10 +10,10 @@ main {
     background-color: green;
 }
 
-header > img {
+.small-image {
     height: 80px;
 }
 
-main > img {
+.large-image {
     height: 160px;
 }
