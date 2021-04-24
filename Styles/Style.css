@@ -1,5 +1,14 @@
+body{
+    background: gainsboro;
+}
+
+body > *{
+    color: grey;
+    font-family: 'consolas', sans-serif;
+}
+
 header {
-    background-color: yellow;
+    /* background-color: yellow; */
     display: inline-block;
     width: 900px;
     margin-left: calc((100% - 900px) / 2);
@@ -10,17 +19,41 @@ header > * {
 display: inline-block;
 }
 
+header > img {
+    height: 80px;
+}
+
 nav {
     float:right;
     margin-top: 30px;
 }
 
 main {
-    background-color: green;
+    /* background-color: green; */
     display: inline-block;
     width: 900px;
     margin-left: calc((100% - 900px) / 2);
     margin-right: calc((100% - 900px) / 2);
+}
+
+main > img {
+    /* height: 80px; */
+}
+
+main > * {
+    display: inline-block;
+    height: 49x;
+}
+
+main > div > h1{
+    height: 100px;
+    margin-block-start: 0.67em;
+    margin-inline-end: 0;
+}
+
+main > div > p{
+font-size: 25px;
+margin-block-start: 0;
 }
 
 .small-image {
@@ -36,13 +69,12 @@ main {
 }
 
 .btn {
-    color: grey;
     text-decoration:none;
     margin: 12px;
 }
 
 .signin {
-    border-color: grey;
+   border-color: grey;
     border-style: solid;
     padding: 5px 20px 5px 20px;
     border-radius: 20px;
