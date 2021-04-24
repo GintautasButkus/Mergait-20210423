@@ -1,17 +1,26 @@
 header {
     background-color: yellow;
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: calc((100% - 600px) / 2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
+}
+
+header > * {
+display: inline-block;
+}
+
+nav {
+    float:right;
+    margin-top: 30px;
 }
 
 main {
     background-color: green;
     display: inline-block;
-    width: 600px;
-    margin-left: calc((100% - 600px) / 2);
-    margin-right: calc((100% - 600px) / 2);
+    width: 900px;
+    margin-left: calc((100% - 900px) / 2);
+    margin-right: calc((100% - 900px) / 2);
 }
 
 .small-image {
@@ -20,4 +29,21 @@ main {
 
 .large-image {
     height: 160px;
+}
+
+#left {
+    background: red;
+}
+
+.btn {
+    color: grey;
+    text-decoration:none;
+    margin: 12px;
+}
+
+.signin {
+    border-color: grey;
+    border-style: solid;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
 }
